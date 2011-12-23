@@ -26,8 +26,8 @@ Merge made by recursive.
  1 files changed, 1 insertions(+), 0 deletions(-)
  create mode 100644 HelloWorld.rb
 
-# É só dar pull!
-# Ele agora vai deixou minha pasta igual a do repositório online!
+# Só precisei dar pull.
+# Ele deixou minha pasta igual a do repositório online!
 # Lembre-se, meu arquivo "MegaSena.rb" só continuou aqui porque eu já dei add/commit.
 # Mas ele não está no online porque eu não dei push!
 # Vamos dar o push para enviar o meu...
