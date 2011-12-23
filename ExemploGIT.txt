@@ -1,0 +1,67 @@
+# Eu criei o arquivo MegaSena.rb, já escrevi o que tinha pra escrever nele, agora vou add no GIT:
+fschuindt@hendrix:~/Projeto-Ruby$ git add MegaSena.rb
+# Beleza!
+
+# Agora eu preciso dizer o que é esse arquivo, vamos commitar:
+
+fschuindt@hendrix:~/Projeto-Ruby$ git commit -m "Pequeno jogo da Mega Sena."
+[master 863da52] Pequeno jogo da Mega Sena.
+ 1 files changed, 22 insertions(+), 0 deletions(-)
+ create mode 100644 MegaSena.rb
+
+# Pronto.
+# Eu ainda não enviei, mas sei que você criou um arquivo novo lá "HelloWorld.rb".
+# Já dei add e já commitei meu arquivo, ele está seguro, deixa eu puxar o seus arquivos e alterações do repositório:
+
+fschuindt@hendrix:~/Projeto-Ruby$ git pull
+Enter passphrase for key '/home/fschuindt/.ssh/id_rsa': 
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0)
+Unpacking objects: 100% (3/3), done.
+From github.com:fschuindt/Projeto-Ruby
+   0d763ac..bfbb2dd  master     -> origin/master
+Merge made by recursive.
+ HelloWorld.rb |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+ create mode 100644 HelloWorld.rb
+
+# É só dar pull!
+# Ele agora vai deixou minha pasta igual a do repositório online!
+# Lembre-se, meu arquivo "MegaSena.rb" só continuou aqui porque eu já dei add/commit.
+# Mas ele não está no online porque eu não dei push!
+# Vamos dar o push para enviar o meu...
+
+# Ah, note: PUSH empurra! PULL puxa! :)
+# O push, envia todos os meus arquivos commitados para o repositório online.
+# O pull pega todos os arquivos do online pra mim.
+
+# Quero enviar o meu arquivo, mas antes de dar push, vamos entender essa parada de master e origin.
+# O GIT trabalha com branches, que são galhos. É como se fossem repositórios diferentes, lugares...
+# Pense como: Repositório Oficial, Repositório de Pesquisa, Repositório de Desenvolvimento, etc...
+# No nosso caso, existem dois branches, o master e o origin.
+
+# master: O lugar onde estamos trabalhando, nosssa pasta em ~/Projeto-Ruby.
+# origin: A origem, onde começou... O online!
+
+# Note: O meu master é diferente do seu master, mas os dois são master.
+# Branches é algo muito mais pessoal do que da aplicação em si.
+
+# Na hora de enviar, o push quer saber, você vai pra qual galho de qual galho?
+# Eu vou enviar pro online, os arquivos da minha pasta.
+# Vou enviar pro origin do master, então:
+
+fschuindt@hendrix:~/Projeto-Ruby$ git push origin master
+Enter passphrase for key '/home/fschuindt/.ssh/id_rsa': 
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.23 KiB, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To git@github.com:fschuindt/Projeto-Ruby.git
+   bfbb2dd..0c9a5b5  master -> master
+
+# Tudo certo! Seus arquivos estão na minha pasta e meus arquivos estão online! :)
+# Depois eu te envio uns artigos legais explicando melhor o GIT.
+
+- Fernando Schuindt
