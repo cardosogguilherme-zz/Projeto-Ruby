@@ -4,3 +4,6 @@ $ git status
 $ git diff --cached
 # Mostra o que está pra ser commitado.
 # Detalhe: Sem o --cached, mostra as alterações feitas que ainda não estão no index. (Porém somente de arquivos indexados)
+
+$ git commit -a
+# Adciona automaticamente (na hora do commit) todas as mudanças feitas em arquivos do index.
