@@ -7,3 +7,5 @@ $ git diff --cached
 
 $ git commit -a
 # Adciona automaticamente (na hora do commit) todas as mudanças feitas em arquivos do index.
+
+# Teste 123
