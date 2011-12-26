@@ -8,4 +8,25 @@ $ git diff --cached
 $ git commit -a
 # Adciona automaticamente (na hora do commit) todas as mudanças feitas em arquivos do index.
 
-# Teste 123
+# gitk
+# É um programinha que gera uma interface gráfica sobre o seu repositório.
+
+# Comandos de branches:
+
+$ git branch nomeDoBranch
+# Cria um novo branch.
+
+$ git branch
+# Mostra os branches existentes.
+
+$ git checkout nomeDoBranch
+# Muda do branch atual para o escolhido.
+
+$ git merge nomeDoBranch
+# Da merge entre o branch atual e o escolhido.
+
+$ git branch -d nomeDoBranch
+# Remove o branch escolhido, mas só se as suas alterações já tenham sido colocadas no branch atual.
+
+$ git branch -D nomeDoBranch
+# Remove o branch, mesmo que suas alterações não tenham sido salvas.
