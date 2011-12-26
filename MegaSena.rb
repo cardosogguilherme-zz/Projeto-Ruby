@@ -9,8 +9,8 @@ resultado = (1..100).to_a.shuffle.take(6)
  Voilá, 6 números aleatórios em uma array, sendo o menor possível 1 e o maior possível 100.
 =end
 
-#Exibir array; Um exemplo de "foreach" em Ruby. (For each matriculas as mat, print mat)
-resultado.each {|mat| print mat, " "}
+#Exibir array; Um exemplo de "foreach" em Ruby. (For each resultado as n, print n)
+resultado.each {|n| print n, " "}
 puts "" #Eu coloquei isso pra ele quebrar a linha no final, pois o print não quebra linha, só o puts.
 
 =begin
