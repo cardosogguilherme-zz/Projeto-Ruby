@@ -1,0 +1,6 @@
+$ git status
+# Mostra o resumo da sua app, o que está pra ser commitado, os seus branches, os que foram modificados, deletados, adcionados e até mesmo novos arquivos que não estão no index.
+
+$ git diff --cached
+# Mostra o que está pra ser commitado.
+# Detalhe: Sem o --cached, mostra as alterações feitas que ainda não estão no index. (Porém somente de arquivos indexados)
