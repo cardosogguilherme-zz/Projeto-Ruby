@@ -20,3 +20,5 @@ puts "" #Eu coloquei isso pra ele quebrar a linha no final, pois o print não qu
  
  *Cabe a tudo, tudo é objeto!
 =end
+
+# Novo edit.
