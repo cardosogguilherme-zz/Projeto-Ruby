@@ -22,3 +22,4 @@ puts "" #Eu coloquei isso pra ele quebrar a linha no final, pois o print não qu
 =end
 
 # Novo edit.
+# Guilherme
