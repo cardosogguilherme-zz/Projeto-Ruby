@@ -72,3 +72,4 @@ puts calculator(10, 15) {|x, y| puts x * y}
 # farinha = ahniraf
 
 # Dica: veja o método .reverse :)
+# Fernando Schuindt
